@@ -12,6 +12,8 @@ dependencies:
     sdk: flutter
   cupertino_icons: ^1.0.8
   # packages I added are below:
+  google_sign_in: ^7.2.0
+  flutter_riverpod: ^3.4.3
 
 dev_dependencies:
   flutter_test:
