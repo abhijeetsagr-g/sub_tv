@@ -1,4 +1,4 @@
-package com.example.sub_tv
+package com.zeenfic.subtv
 
 import io.flutter.embedding.android.FlutterActivity
 
