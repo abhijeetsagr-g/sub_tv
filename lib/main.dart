@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
+import 'package:sub_tv/core/theme/app_theme.dart';
 import 'package:sub_tv/feature/auth/presentation/view/auth_gate.dart';
 
 void main() {
@@ -15,9 +16,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'SubTV',
-      theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.redAccent),
-      ),
+      theme: AppTheme.theme,
       home: AuthGate(),
     );
   }
