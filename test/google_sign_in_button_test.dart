@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-
-import 'package:sub_tv/feature/auth/presentation/view/google_sign_in_button.dart';
+import 'package:sub_tv/feature/auth/presentation/widget/google_sign_in_button.dart';
 
 void main() {
   testWidgets('renders the official asset without layout errors and fires '
@@ -11,9 +10,7 @@ void main() {
       MaterialApp(
         home: Scaffold(
           body: Center(
-            child: GoogleSignInButton(
-              onPressed: () => tapped = true,
-            ),
+            child: GoogleSignInButton(onPressed: () => tapped = true),
           ),
         ),
       ),
